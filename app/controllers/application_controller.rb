@@ -4,4 +4,12 @@ class ApplicationController < ActionController::Base
   def index
   render html: "Tierra y libertad!" 
   end
+
+  def help
+  end
+
+  def about
+  end
+
+
 end
